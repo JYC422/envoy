@@ -1,0 +1,67 @@
+@font-face {
+    font-family: arialmtbold;
+    src: url(arial_mt_bold.otf);
+}
+
+body {
+  font-family: arialmtbold;
+  box-sizing: border-box;
+}
+
+div.container {
+  padding: 0 150px;
+}
+
+#header .navbar {
+  height: 60px;
+  background-color: rgba(20, 20, 20, 0.9);
+  font-weight: bold;
+}
+
+.navbar-header .navbar-brand {
+  color: #9f9f9f;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.navbar-nav li a {
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 50px;
+}
+
+.navbar-nav li a:active,
+.navbar-nav li a:focus {
+  color: #e34e33;
+  background-color: transparent;
+}
+
+.navbar-nav li a:hover {
+  color: #9f9f9f;
+  background-color: transparent;
+}
+
+#twitter a {
+  font-size: 14px;
+  color: #67d9d9;
+  background-color: #464646;
+  height: 40px;
+  margin-top: 19px;
+  padding-right: 60px;
+  line-height: 10px;
+  position: relative;
+}
+
+#twitter a div {
+  background-color: #e34e33;
+  color: white;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  font-size: 30px;
+  text-align: center;
+  line-height: 40px;
+}

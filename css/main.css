@@ -16,6 +16,10 @@ div.container {
   height: 60px;
   background-color: rgba(20, 20, 20, 0.9);
   font-weight: bold;
+  margin: 0;
+  position: relative;
+  z-index: 5;
+  border-radius: 0;
 }
 
 .navbar-header .navbar-brand {
@@ -64,4 +68,34 @@ div.container {
   font-size: 30px;
   text-align: center;
   line-height: 40px;
+}
+
+#myCarousel {
+  top: -80px;
+}
+
+.carousel-indicators li {
+  background-color: white;
+  border: none;
+  margin: 5px;
+}
+
+.carousel-indicators li:hover {
+  background-color: #9f9f9f;
+}
+
+.carousel-indicators .active {
+  background-color: red;
+  border: none;
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+}
+
+.carousel-inner div img {
+  width: 100%;
+}
+
+#home {
+  position: relative;
 }
